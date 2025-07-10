@@ -1,27 +1,22 @@
-# Flipakrt Customer Support Analysis using EDA and Machine Learning
+# Flipkart Customer Support Analysis using EDA and Machine Learning
 
 This project analyzes Flipkart's customer support data to uncover patterns in issue types, resolution timelines, customer satisfaction, and agent performance. The goal is to extract actionable insights through Exploratory Data Analysis (EDA) and build a machine learning model to predict support outcomes such as CSAT (Customer Satisfaction) score or issue types.
 
 ---
 
-##  Folder Structure
-
-Labmentix/
-└── Flipakrt_Customer_Support_Analysis/
+Flipakrt_Customer_Support_Analysis/
 ├── dataset/
-│ └── Customer_support_data.csv
-├── notebooks/
-│ └── Flipakrt_Project_EDA_ML.ipynb
-├── video/
-│ └── flipkart_presentation.mp4
+│   ├── Customer_support_data.csv
+│   └── unseen_predictions.csv  
 ├── models/
-│ └── rf_model.pkl
-├── assets/
-│ ├── charts/
-│ └── screenshots/
-├── README.md
+│   └── best_random_forest_model.joblib
+├── notebooks/
+│   └── Model_Implementation.ipynb
 ├── requirements.txt
+├── README.md
 └── .gitignore
+
+
 
 ---
 
